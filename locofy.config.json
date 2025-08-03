@@ -1,0 +1,6 @@
+{
+    "components": [
+        "src/components/navbar.js",
+        "src/components/hero.js"
+    ]
+}
