@@ -1,5 +1,6 @@
 import Navbar from '@/components/navbar'
 import HeroSection from '@/components/hero'
+import HowItWorks from '@/components/howitworks'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     >
       <Navbar />
       <HeroSection />
+      <HowItWorks />
     </div>
   )
 }
