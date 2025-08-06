@@ -4,7 +4,8 @@ import Image from 'next/image'
 
 export default function HowItWorks() {
     return (
-        <section className="flex justify-center mt-[713px]">
+        <section className="relative z-10 -mt-[200px] flex justify-center">
+
             <div className="w-[1080px] h-[309px] bg-white rounded-[16px] shadow-md flex flex-col items-center px-4 py-6">
 
                 {/* Main Heading */}
@@ -16,7 +17,7 @@ export default function HowItWorks() {
                 <div className="flex justify-between w-full mt-8 px-6">
                     {/* Step 1 */}
                     <div className="flex flex-col items-center text-center w-1/3 px-4">
-                        <Image src="/icons/tag.png" alt="Tag Icon" width={50} height={50} />
+                        <Image src="/Container (3).png" alt="Tag Icon" width={50} height={50} />
                         <h4 className="text-[20px] font-bold leading-[32px] mt-3">List Your Car</h4>
                         <p className="text-[16px] font-normal leading-[31px] mt-1 text-gray-700 max-w-[320px]">
                             Add your vehicle details to get instant offers from trusted dealers.
@@ -25,7 +26,7 @@ export default function HowItWorks() {
 
                     {/* Step 2 */}
                     <div className="flex flex-col items-center text-center w-1/3 px-4">
-                        <Image src="/icons/finger-phone.png" alt="Phone Interaction Icon" width={50} height={50} />
+                        <Image src="/Container.png" alt="Phone Interaction Icon" width={50} height={50} />
                         <h4 className="text-[20px] font-bold leading-[32px] mt-3">Choose an Offer</h4>
                         <p className="text-[16px] font-normal leading-[31px] mt-1 text-gray-700 max-w-[320px]">
                             Compare offers and pick the best one with just a tap.
@@ -34,7 +35,7 @@ export default function HowItWorks() {
 
                     {/* Step 3 */}
                     <div className="flex flex-col items-center text-center w-1/3 px-4">
-                        <Image src="/icons/checklist.png" alt="Checklist Icon" width={50} height={50} />
+                        <Image src="/Container (4).png" alt="Checklist Icon" width={50} height={50} />
                         <h4 className="text-[20px] font-bold leading-[32px] mt-3">Sell & Get Paid</h4>
                         <p className="text-[16px] font-normal leading-[31px] mt-1 text-gray-700 max-w-[320px]">
                             Complete the deal and receive payment quickly and securely.
