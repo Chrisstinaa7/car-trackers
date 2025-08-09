@@ -2,6 +2,8 @@ import Navbar from '@/components/navbar';
 import HeroSection from '@/components/hero';
 import HowItWorks from '@/components/howitworks';
 import VideoAppraisal from '@/components/VideoAppraisal';
+import Box from '@/components/box';
+import ReviewsSection from '@/components/reviewsection';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       </div>
       <HowItWorks />
       <VideoAppraisal />
+      <Box />
+      <ReviewsSection />
     </div>
   );
 }
